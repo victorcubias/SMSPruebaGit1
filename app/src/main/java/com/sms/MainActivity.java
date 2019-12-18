@@ -37,13 +37,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         
-        final Button btnClick = (Button)findViewById(R.id.button);
+        final Button btnClick = findViewById(R.id.button); //No es necesario cast a Button
         
 
         btnClick.setOnClickListener(new View.OnClickListener()
                                     {
                                         public void onClick(View v){
-                                            Toast.makeText(getApplicationContext() , "Hola mundo Github", Toast.LENGTH_SHORT).show();
+                                            Toast.makeText(getApplicationContext() , "Hola mundo Github cambio 2 veces.", Toast.LENGTH_SHORT).show();
                                         }
                                     }
                 );
