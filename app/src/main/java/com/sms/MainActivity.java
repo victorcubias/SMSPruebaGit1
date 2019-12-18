@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         btnClick.setOnClickListener(new View.OnClickListener()
                                     {
                                         public void onClick(View v){
-                                            Toast.makeText(getApplicationContext() , "Hola mundo Github cambio 2 veces.", Toast.LENGTH_SHORT).show();
+                                            Toast.makeText(getApplicationContext() , "Hola mundo Github Fernando SMS Edición", Toast.LENGTH_SHORT).show();
                                         }
                                     }
                 );
